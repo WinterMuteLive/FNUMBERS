@@ -17,7 +17,7 @@ x = 0
 y = 0
 
 root = Tk()
-root.title("Цифроблядство")
+root.title("Цифроблядствище")
 root.geometry('320x320')
 root.resizable(0,0)
 
@@ -35,7 +35,7 @@ canvas.bind('<B1-Motion>', draw)
 canvas.bind('<B3-Motion>', clear_canvas)
 canvas.pack(expand=1, fill=BOTH)
 
-image1 = PIL.Image.new('RGB', (320, 320), 'white')
+image1 = Image.new('RGB', (320, 320), 'white')
 draw = ImageDraw.Draw(image1)
 
 root.mainloop()
