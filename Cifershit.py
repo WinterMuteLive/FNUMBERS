@@ -17,7 +17,7 @@ x = 0
 y = 0
 
 root = Tk()
-root.title("Цифроблядствище")
+root.title("Цифроблядствищество")
 root.geometry('320x320')
 root.resizable(0,0)
 
